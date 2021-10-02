@@ -9,48 +9,48 @@
 
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span class="flaticon-lotus"></span>Energen</a>
+	      <a class="navbar-brand" href="{{ url('index') }}"><span class="flaticon-lotus"></span>Energen</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li>
-	          <li class="nav-item"><a href="specialists.html" class="nav-link">Specialists</a></li>
-	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Specialists</a></li>
+	          <li class="nav-item"><a href="{{ url('pricing') }}" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="{{ url('blog') }}" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap js-fullheight" style="background-image: url('assets/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -73,7 +73,7 @@
       </div>
     </section>
 		
-		<section class="ftco-section ftco-intro" style="background-image: url(images/intro.jpg);">
+		<section class="ftco-section ftco-intro" style="background-image: url(assets/images/intro.jpg);">
 			<div class="container">
 				<div class="row justify-content-end">
 					<div class="col-md-6">
@@ -98,7 +98,7 @@
 				<div class="row no-gutters">
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(/images/offer-deal-1.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-1.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Book Your Treatment</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -108,7 +108,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal active text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-2.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-2.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Great Gift Packages</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -118,7 +118,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-3.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-3.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Special Offer &amp; Deal</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -471,7 +471,7 @@
 	                    </span>
 	                  </div>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_1.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Gabby Smith</p>
@@ -492,7 +492,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_2.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Floyd Weather</p>
@@ -513,7 +513,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_3.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">James Dee</p>
@@ -534,7 +534,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_4.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_4.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Lance Roger</p>
@@ -555,7 +555,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_2.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Kenny Bufer</p>
@@ -571,7 +571,7 @@
       </div>
     </section>
 
-    <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-counter img" id="section-counter" style="background-image: url(assets/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center">
@@ -626,7 +626,7 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -645,7 +645,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -664,7 +664,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -695,28 +695,28 @@
         </div>
     		<div class="row">
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
+						<a href="assets/images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-1.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+						<a href="assets/images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-2.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+						<a href="assets/images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-3.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+						<a href="assets/images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-4.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
@@ -786,7 +786,7 @@
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
 
-              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Videl Modar</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
@@ -800,23 +800,23 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/jquery.animateNumber.min.js"></script>
+  <script src="assets/js/bootstrap-datepicker.js"></script>
+  <script src="assets/js/jquery.timepicker.min.js"></script>
+  <script src="assets/js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+  <script src="assets/js/google-map.js"></script>
+  <script src="assets/js/main.js"></script>
     
   </body>
 </html>
