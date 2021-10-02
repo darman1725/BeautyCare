@@ -50,7 +50,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('assets/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -67,7 +67,7 @@
 				<div class="row no-gutters">
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-1.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-1.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Book Your Treatment</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -77,7 +77,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal active text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-2.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-2.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Great Gift Packages</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -87,7 +87,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-3.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-3.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Special Offer &amp; Deal</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
