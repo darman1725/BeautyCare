@@ -54,8 +54,8 @@ Route::get('/pricing', function () {
 });
 
 /* File Pada Halaman Specialist Beauty Care */
-Route::get('/specialist', function () {
-    return view('specialist');
+Route::get('/specialists', function () {
+    return view('specialists');
 });
 
 /* File Pada Halaman Treatments Beauty Care */
