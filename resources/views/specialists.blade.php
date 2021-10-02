@@ -50,7 +50,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('assets/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -73,7 +73,7 @@
     		<div class="row">
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(images/trainer-1.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/trainer-1.jpg);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
 	    					<span class="subheading">Owner / Head Coach</span>
 	    					<h3><a href="#">Elizabeth Nelson</a></h3>
@@ -89,7 +89,7 @@
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(images/trainer-2.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/trainer-2.jpg);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
 	    					<span class="subheading">Owner / Head Coach</span>
 	    					<h3><a href="#">Scarlett Torres</a></h3>
@@ -105,7 +105,7 @@
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(images/trainer-3.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/trainer-3.jpg);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
 	    					<span class="subheading">Owner / Head Coach</span>
 	    					<h3><a href="#">Victoria Wright</a></h3>
@@ -121,7 +121,7 @@
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(images/trainer-4.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/trainer-4.jpg);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
 	    					<span class="subheading">Owner / Head Coach</span>
 	    					<h3><a href="#">Stella Perry</a></h3>
