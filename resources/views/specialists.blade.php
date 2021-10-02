@@ -31,19 +31,19 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-light-2" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span class="flaticon-lotus"></span>Energen</a>
+	      <a class="navbar-brand" href="{{ url('index') }}"><span class="flaticon-lotus"></span>Energen</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li>
-	          <li class="nav-item active"><a href="specialists.html" class="nav-link">Specialists</a></li>
-	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Specialists</a></li>
+	          <li class="nav-item"><a href="{{ url('pricing') }}" class="nav-link">Pricing</a></li>
+	          <li class="nav-item"><a href="{{ url('blog') }}" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -56,7 +56,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-3 bread">Our Team Specialists</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Treatments</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{{ url('index') }}">Home</a></span> <span>Treatments</span></p>
           </div>
         </div>
       </div>
