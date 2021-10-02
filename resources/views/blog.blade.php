@@ -124,7 +124,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/simages/image_4.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_4.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
