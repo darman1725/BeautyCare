@@ -98,7 +98,7 @@
 				<div class="row no-gutters">
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-1.jpg);"></div>
+							<div class="img" style="background-image: url(/images/offer-deal-1.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Book Your Treatment</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

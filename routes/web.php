@@ -40,7 +40,8 @@ Route::get('/contact', function () {
 /* File Pada Halaman Index Beauty Care */
 Route::get('/index', function () {
     return view('index');
-});
+}); 
+
 
 /* File Pada Halaman Main Beauty Care */
 Route::get('/main', function () {
