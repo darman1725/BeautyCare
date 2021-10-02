@@ -50,7 +50,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('assets/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -62,7 +62,7 @@
       </div>
     </section>
 		
-		<section class="ftco-section ftco-intro" style="background-image: url(images/intro.jpg);">
+		<section class="ftco-section ftco-intro" style="background-image: url(assets/images/intro.jpg);">
 			<div class="container">
 				<div class="row justify-content-end">
 					<div class="col-md-6">
@@ -87,7 +87,7 @@
 				<div class="row no-gutters">
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-1.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-1.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Book Your Treatment</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -97,7 +97,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal active text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-2.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-2.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Great Gift Packages</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -107,7 +107,7 @@
 					</div>
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="offer-deal text-center px-2 px-lg-5">
-							<div class="img" style="background-image: url(images/offer-deal-3.jpg);"></div>
+							<div class="img" style="background-image: url(assets/images/offer-deal-3.jpg);"></div>
 							<div class="text mt-4">
 								<h3 class="mb-4">Special Offer &amp; Deal</h3>
 								<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -191,7 +191,7 @@
 	                    </span>
 	                  </div>
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_1.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Gabby Smith</p>
@@ -212,7 +212,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_2.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Floyd Weather</p>
@@ -233,7 +233,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_3.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">James Dee</p>
@@ -254,7 +254,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_4.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_4.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Lance Roger</p>
@@ -275,7 +275,7 @@
 	                  </div>
 
                     <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    	<div class="user-img" style="background-image: url(assets/images/person_2.jpg)">
 		                  </div>
 		                  <div class="ml-4">
 		                  	<p class="name">Kenny Bufer</p>
@@ -291,7 +291,7 @@
       </div>
     </section>
 
-    <section class="ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-counter img" id="section-counter" style="background-image: url(assets/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center">
@@ -345,28 +345,28 @@
         </div>
     		<div class="row">
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
+						<a href="assets/images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-1.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+						<a href="assets/images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-2.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+						<a href="assets/images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-3.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
 						</a>
 					</div>
 					<div class="col-md-3 ftco-animate">
-						<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+						<a href="assets/images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(assets/images/gallery-4.jpg);">
 							<div class="icon mb-4 d-flex align-items-center justify-content-center">
     						<span class="icon-instagram"></span>
     					</div>
