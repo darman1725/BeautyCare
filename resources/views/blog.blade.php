@@ -31,19 +31,19 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-light-2" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span class="flaticon-lotus"></span>Energen</a>
+	      <a class="navbar-brand" href="{{ url('index') }}"><span class="flaticon-lotus"></span>Energen</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="treatments.html" class="nav-link">Treatments</a></li>
-	          <li class="nav-item"><a href="specialists.html" class="nav-link">Specialists</a></li>
-	          <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	          <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Specialists</a></li>
+	          <li class="nav-item"><a href="{{ url('pricing') }}" class="nav-link">Pricing</a></li>
+	          <li class="nav-item active"><a href="{{ url('blog') }}" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -56,7 +56,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-3 bread">Blog</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{{ url('index') }}">Home</a></span> <span>Blog</span></p>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -86,7 +86,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -105,7 +105,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -124,7 +124,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/simages/image_4.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/simages/image_4.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -143,7 +143,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_5.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_5.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
@@ -162,7 +162,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_6.jpg');">
+              <a href="{{ url('blog-single') }}" class="block-20" style="background-image: url('assets/images/image_6.jpg');">
               </a>
               <div class="text p-4 float-right d-block">
               	<div class="d-flex align-items-center pt-2 mb-4">
