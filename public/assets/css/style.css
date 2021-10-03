@@ -9696,3 +9696,17 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.tombol{
+  position: absolute;
+  right: 110px;
+  background-color: #e7b630;
+  border-radius: 12px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+}
