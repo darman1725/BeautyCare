@@ -760,7 +760,7 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-			  <li><a href="{{ url('about') }}">About</a></li>
+			    <li><a href="{{ url('about') }}">About</a></li>
                 <li><a href="{{ url('index') }}">Our Spa</a></li>
                 <li><a href="{{ url('treatments') }}">Treatments</a></li>
                 <li><a href="{{ url('specialists') }}">Specialists</a></li>
