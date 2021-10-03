@@ -8182,6 +8182,7 @@ h1, h2, h3, h4, h5,
       padding: 10px 15px; } }
   .ftco-navbar-light.ftco-navbar-light-2 {
     position: relative !important;
+    background: rgb(250, 214, 167) !important;
     top: 0; }
   .ftco-navbar-light .navbar-brand {
     color: #d9bf77; }
@@ -8279,7 +8280,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
+    background: rgb(250, 214, 167) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
@@ -8925,6 +8926,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 6em 0;
+  background: rgb(250, 214, 167) !important;
   border-top: 1px solid rgba(0, 0, 0, 0.05); }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8951,6 +8953,10 @@ textarea.form-control {
     font-size: 17px;
     font-weight: 400;
     color: #000; }
+    .ftco-footer .ftco-heading-3 {
+        font-size: 17px;
+        font-weight: 400;
+        color: rgb(78, 78, 78); }
   .ftco-footer .categories li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .ftco-footer .categories li a span {

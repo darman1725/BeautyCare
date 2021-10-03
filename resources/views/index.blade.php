@@ -4,14 +4,14 @@
     <title>BeautyCare - Halaman Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    
+
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
 
-    
+
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -31,19 +31,17 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{{ url('index') }}"><span class="flaticon-lotus"></span>BeautyCare</a>
+	      <a class="navbar-brand" href="{{ url('index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
-	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Specialists</a></li>
-	          <li class="nav-item"><a href="{{ url('pricing') }}" class="nav-link">Pricing</a></li>
-	          <li class="nav-item"><a href="{{ url('blog') }}" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
 	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="{{ url('logout') }}" class="nav-link">Logout</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -61,9 +59,9 @@
             <h1>Spa &amp; Beauty Center</h1>
             <div class="row justify-content-center">
 	            <div class="col-md-7 mb-3">
-	            	<p>Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan 
-                yang didirikan oleh Videl Modar. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki 
-                jenis dan masalah kulit yang berbeda-beda, untuk itu kami menyediakan berbagai macam perawatan kecantikan 
+	            	<p>Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan
+                yang didirikan oleh Modav. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki
+                jenis dan masalah kulit yang berbeda-beda, untuk itu kami menyediakan berbagai macam perawatan kecantikan
                 kulit yang dilakukan langsung oleh dokter spesialis kulit dan kecantikan.</p>
 	            </div>
 	          </div>
@@ -75,7 +73,7 @@
         </div>
       </div>
     </section>
-		
+
 		<section class="ftco-section ftco-intro" style="background-image: url(assets/images/intro.jpg);">
 			<div class="container">
 				<div class="row justify-content-end">
@@ -132,7 +130,7 @@
 				</div>
 			</div>
 		</section>
-    
+
     <section class="ftco-section ftco-section-services bg-light">
     	<div class="container-fluid px-md-5">
     		<div class="row">
@@ -394,9 +392,9 @@
 	            <h2 class="heading">Year Card</h2>
 	            <span class="price"><sup>$</sup> <span class="number">449</span></span>
 	            <span class="excerpt d-block">For 1 Year</span>
-	            
+
 	            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-	            
+
 	            <ul class="pricing-text mb-5">
 	              <li>Face Treatments</li>
 	              <li>Nail Treatments</li>
@@ -414,9 +412,9 @@
 	            <h2 class="heading">Monthly Card</h2>
 	            <span class="price"><sup>$</sup> <span class="number">200</span></span>
 	            <span class="excerpt d-block">For 1 Month</span>
-	            
+
 	            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-	            
+
 	            <ul class="pricing-text mb-5">
 	              <li>Face Treatments</li>
 	              <li>Nail Treatments</li>
@@ -434,9 +432,9 @@
 	            <h2 class="heading">Weekly Card</h2>
 	            <span class="price"><sup>$</sup> <span class="number">85</span></span>
 	            <span class="excerpt d-block">For 1 Week</span>
-	            
+
 	            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-	            
+
 	            <ul class="pricing-text mb-5">
 	              <li>Face Treatments</li>
 	              <li>Nail Treatments</li>
@@ -729,7 +727,7 @@
     	</div>
     </section>
 
-		
+
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
@@ -737,7 +735,7 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">BeautyCare</h2>
-              <p>Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan yang didirikan oleh Videl Modar. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki jenis dan masalah kulit yang berbeda-beda.</p>
+              <p class="ftco-heading-3">Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan yang didirikan oleh Modav. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki jenis dan masalah kulit yang berbeda-beda.</p>
               <ul class="ftco-footer-social list-unstyled float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -747,24 +745,22 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Popular Links</h2>
+              <h2 class="ftco-heading-2">Popular</h2>
               <ul class="list-unstyled">
-                <li><a href="#">Aromatheraphy</a></li>
-                <li><a href="#">Skin Care</a></li>
-                <li><a href="#">Herbal Spa</a></li>
-                <li><a href="#">Body Massage</a></li>
+                <li class="ftco-heading-3">Acne Clear Treatment</a></li>
+                <li class="ftco-heading-3">Bright Glow Skin Booster</a></li>
+                <li class="ftco-heading-3">Korean Glow Laser</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Quick Links</h2>
+              <h2 class="ftco-heading-2">Quick</h2>
               <ul class="list-unstyled">
-			    <li><a href="{{ url('about') }}">About</a></li>
-                <li><a href="{{ url('index') }}">Our Spa</a></li>
-                <li><a href="{{ url('treatments') }}">Treatments</a></li>
-                <li><a href="{{ url('specialists') }}">Specialists</a></li>
-                <li><a href="{{ url('contact') }}">Contact</a></li>
+			    <li class="ftco-heading-3">Home</a></li>
+                <li class="ftco-heading-3">Treatments</a></li>
+                <li class="ftco-heading-3">Doctor</a></li>
+                <li class="ftco-heading-3">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -773,11 +769,11 @@
               <h2 class="ftco-heading-2">Punya Pertanyaan?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Jl. Sukarno Hatta No 32, Malang
+                  <li><a href="#"><span class="icon icon-map-marker"></span><span class="text">Jl. Sukarno Hatta No 32, Malang
 </span></li>
                   <li><a href="#"><span class="icon icon-phone"></span><span class="text">081375685166
 </span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">modav@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>
@@ -791,15 +787,15 @@
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
 
-              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Videl Modar</a>
+              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Modav</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
         </div>
       </div>
     </footer>
-    
-  
+
+
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -822,6 +818,6 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="assets/js/google-map.js"></script>
   <script src="assets/js/main.js"></script>
-    
+
   </body>
 </html>
