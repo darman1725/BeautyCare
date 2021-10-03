@@ -407,11 +407,11 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Our Spa</a></li>
-                <li><a href="#">Treatments</a></li>
-                <li><a href="#">Specialists</a></li>
-                <li><a href="#">Contact</a></li>
+			    <li><a href="{{ url('about') }}">About</a></li>
+                <li><a href="{{ url('index') }}">Our Spa</a></li>
+                <li><a href="{{ url('treatments') }}">Treatments</a></li>
+                <li><a href="{{ url('specialists') }}">Specialists</a></li>
+                <li><a href="{{ url('contact') }}">Contact</a></li>
               </ul>
             </div>
           </div>
