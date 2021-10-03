@@ -145,7 +145,7 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">BeautyCare</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <p>Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan yang didirikan oleh Videl Modar. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki jenis dan masalah kulit yang berbeda-beda.</p>
               <ul class="ftco-footer-social list-unstyled float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
