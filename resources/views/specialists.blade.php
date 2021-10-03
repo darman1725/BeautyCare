@@ -53,8 +53,7 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-3 bread">Our Team Specialists</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="{{ url('index') }}">Home</a></span> <span>Treatments</span></p>
+            <h1 class="mb-3 bread">Our Team Doctor</h1>
           </div>
         </div>
       </div>
@@ -64,73 +63,69 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h3 class="subheading">Specialists</h3>
-            <h2 class="mb-1">Meet Our Spa Specialists</h2>
+          	<h3 class="subheading">Doctor</h3>
+            <h2 class="mb-1">Meet Our Treatments Specialists</h2>
           </div>
         </div>
     		<div class="row">
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/trainer-1.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/dokter1.png);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Owner / Head Coach</span>
-	    					<h3><a href="#">Elizabeth Nelson</a></h3>
-	    					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	    					<ul class="ftco-social-media d-flex mt-4">
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-	              </ul>
+	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
+	    					<h3><a href="#">dr. Catherina Jessica Sutantoyo, Sp.KK</a></h3>
+	    					<p>dr. Catherina Jessica Sutantoyo, Sp. KK adalah seorang Dokter Spesialis Kulit dan Kelamin 
+                  yang aktif melayani pasien di BeautyCare. dr. Catherina Jessica Sutantoyo mendapatkan 
+                  gelar spesialisnya setelah menamatkan pendidikan di Universitas Padjadjaran pada tahun 2015.</p>
 	    					<p></p>
 	    				</div>
+              <br>
+              <button href="index.php" type="button" class="tombol">Detail</button>
+              <link>
 	    			</div>
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/trainer-2.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/dokter2.png);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Owner / Head Coach</span>
-	    					<h3><a href="#">Scarlett Torres</a></h3>
-	    					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	    					<ul class="ftco-social-media d-flex mt-4">
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-	              </ul>
+	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
+	    					<h3><a href="#">dr. Agustina Tripujiastuti, Sp.KK</a></h3>
+	    					<p>dr. Agustina Tripujiastuti, Sp.KK adalah seorang Dokter Spesialis Kulit dan Kelamin yang aktif melayani pasien 
+                  di Klinik BeautyCare dr. Agustina Tripujiastuti mendapatkan gelar spesialisnya setelah menamatkan pendidikan 
+                  di Universitas Airlangga pada tahun 2016.</p>
 	    					<p></p>
 	    				</div>
+              <br><br>
+              <button href="index.php" type="button" class="tombol">Detail</button>
 	    			</div>
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/trainer-3.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/dokter2.1.png);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Owner / Head Coach</span>
-	    					<h3><a href="#">Victoria Wright</a></h3>
-	    					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	    					<ul class="ftco-social-media d-flex mt-4">
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-	              </ul>
+	    					<span class="subheading">Dokter Umum</span>
+	    					<h3><a href="#">dr. Ainun Rojannah Ayatullah</a></h3>
+	    					<p>dr. Ainun Rojannah Ayatullah adalah seorang Dokter Umum yang aktif melayani pasien di Klinik BeautyCare. dr. Ainun Rojannah Ayatullah mendapatkan gelar 
+                  kedokterannya setelah menamatkan pendidikan di Universitas Trisakti.</p>
 	    					<p></p>
 	    				</div>
+              <br><br><br>
+              <button href="index.php" type="button" class="tombol">Detail</button>
 	    			</div>
     			</div>
     			<div class="col-lg-3 d-flex">
     				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/trainer-4.jpg);"></div>
+	    				<div class="img" style="background-image: url(assets/images/dokter4.png);"></div>
 	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Owner / Head Coach</span>
-	    					<h3><a href="#">Stella Perry</a></h3>
-	    					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	    					<ul class="ftco-social-media d-flex mt-4">
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a></li>
-	                <li class="ftco-animate"><a href="#" class="mr-2 d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a></li>
-	              </ul>
+	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
+	    					<h3><a href="#">dr. Balquist Farida, Sp.KK</a></h3>
+	    					<p>dr. Balquist Farida, Sp.KK adalah seorang Dokter Spesialis Kulit dan Kelamin yang aktif melayani 
+                  pasien di BeautyCare. dr. Balquist Farida mendapatkan gelar spesialisnya 
+                  setelah menamatkan pendidikan di Universitas Indonesia.</p>
 	    					<p></p>
 	    				</div>
+              <br><br><br><br>
+              <button href="index.php" type="button" class="tombol">Detail</button>
 	    			</div>
     			</div>
     		</div>
