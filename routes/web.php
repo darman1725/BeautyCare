@@ -62,3 +62,7 @@ Route::get('/specialists', function () {
 Route::get('/treatments', function () {
     return view('treatments');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
