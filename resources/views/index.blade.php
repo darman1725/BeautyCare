@@ -61,7 +61,10 @@
             <h1>Spa &amp; Beauty Center</h1>
             <div class="row justify-content-center">
 	            <div class="col-md-7 mb-3">
-	            	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+	            	<p>Selamat datang di website Klinik BeautyCare, kami adalah klinik perawatan kulit wajah dan badan 
+                yang didirikan oleh Videl Modar. Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki 
+                jenis dan masalah kulit yang berbeda-beda, untuk itu kami menyediakan berbagai macam perawatan kecantikan 
+                kulit yang dilakukan langsung oleh dokter spesialis kulit dan kecantikan.</p>
 	            </div>
 	          </div>
             <p>
