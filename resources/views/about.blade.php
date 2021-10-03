@@ -4,14 +4,14 @@
     <title>BeautyCare - Halaman About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
-    
+
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
 
-    
+
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -61,7 +61,7 @@
         </div>
       </div>
     </section>
-		
+
 		<section class="ftco-section ftco-intro" style="background-image: url(assets/images/intro.jpg);">
 			<div class="container">
 				<div class="row justify-content-end">
@@ -118,7 +118,7 @@
 				</div>
 			</div>
 		</section>
-    
+
     <section class="ftco-section ftco-section-services bg-light">
     	<div class="container-fluid px-md-5">
     		<div class="row">
@@ -376,7 +376,7 @@
     	</div>
     </section>
 
-		
+
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
@@ -445,8 +445,8 @@
         </div>
       </div>
     </footer>
-    
-  
+
+
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -469,6 +469,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="assets/js/google-map.js"></script>
   <script src="assets/js/main.js"></script>
-    
+
   </body>
+  
 </html>
