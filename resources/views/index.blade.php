@@ -773,9 +773,9 @@
               <h2 class="ftco-heading-2">Punya Pertanyaan?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">	Jl. Sukarno Hatta No 32, Malang
+                  <li><span class="icon icon-map-marker"></span><span class="text">Jl. Sukarno Hatta No 32, Malang
 </span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">	081375685166
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">081375685166
 </span></a></li>
                   <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
                 </ul>
