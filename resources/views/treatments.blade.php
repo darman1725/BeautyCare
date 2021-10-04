@@ -54,7 +54,6 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-3 bread">Treatments</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="{{ url('index') }}">Home</a></span> <span>Treatments</span></p>
           </div>
         </div>
       </div>
@@ -64,194 +63,88 @@
 	  	<div class="container-fluid px-md-5">
 	  		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-12 heading-section ftco-animate text-center">
-            <h3 class="subheading">Services</h3>
+            <h3 class="subheading">Semua</h3>
             <h2 class="mb-1">Treatments</h2>
           </div>
         </div>
-        <div class="row align-items-center">
-        	<div class="col-lg-4">
-        		<div class="row no-gutters">
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-right-0 border-bottom-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-candle"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Salt &amp; Aroma</h3>
-										<p>A small river named Duden flows by their place and supplies.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-bottom-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-spa-1"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Hydro</h3>
-										<p>A small river named Duden flows.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-right-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-stone"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Hot Stone</h3>
-										<p>A small river named Duden flows by their place and supplies.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-lotus"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Aroma</h3>
-										<p>A small river named Duden flows.</p>
-									</div>
-								</div>
-        			</div>
-        		</div>
-        	</div>
 
+        <section class="ftco-section ftco-no-pt ftco-no-pb">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
+                            <div class="card-body">
+                               <img class="card-img-top" src="assets/images/1.png" alt="Card image" style="width:100%">
+                                <h4 class="mb-4" align="center">Electrocautery</h4>
+                                <hr />
+								                <p class="mb-5">Electrocauter merupakan perawatan untuk mengangkat kutil atau tahi lalat dengan alat cauter</p>
+                                <br>
+								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
+                            <div class="card-body">
+                               <img class="card-img-top" src="assets/images/2.jpg" alt="Card image" style="width:100%">
+                                <h4 class="mb-4" align="center">Botox Injection</h4>
+                                <hr />
+								                <p class="mb-5">Perawatan anti anging yang paling baik untuk menghilangkan kerutan di dahi antar alis dan samping kelopak mata</p>
+								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
+                            <div class="card-body">
+                               <img class="card-img-top" src="assets/images/6.jpg" alt="Card image" style="width:100%">
+                                <h5 class="mb-4" align="center">Ella Purifying Detoxifying</h5>
+                                <hr />
+								                <p class="mb-5">Terapi untuk membersihkan kulit lebih dalam dari sisa make up,sisa metabolisme kulit,sekaligus mencerahkan dan melembabkan.</p>
+								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
+                            <div class="card-body">
+                                <img class="card-img-top" src="assets/images/3.jpg" alt="Card image" style="width:100%">
+                                <h4 class="mb-4" align="center">Bright Glow Skin Booster</h4>
+                                <hr />
+								                <p class="mb-5">Perpaduan perawatan antara injeksi Hyaluronic Acid dengan IPL Shower White yang memberikan hasil kulit lebih berkilau.</p>
+                                <br>
+								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
 
-        	<div class="col-lg-4 d-flex align-items-stretch">
-        		<div id="accordion" class="myaccordion w-100 text-center py-5 px-1 px-md-4">
-        			<div>
-	        			<h3>Prices</h3>
-	        			<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-        			</div>
-						  <div class="card">
-						    <div class="card-header" id="headingOne">
-						      <h2 class="mb-0">
-						        <button class="d-flex align-items-center justify-content-between btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						          Spa Therapies
-						          <i class="fa" aria-hidden="true"></i>
-						        </button>
-						      </h2>
-						    </div>
-						    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-						      <div class="card-body text-left">
-						      	<ul>
-						      		<li class="d-flex">
-						      			<span>Face Treatments</span>
-						      			<span>40 min.</span>
-						      			<span>$10</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Nail Treatments</span>
-						      			<span>30 min.</span>
-						      			<span>$20</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Medical Treatments</span>
-						      			<span>60 min.</span>
-						      			<span>$10</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Hair Treatments</span>
-						      			<span>30 min.</span>
-						      			<span>$30</span>
-						      		</li>
-						      	</ul>
-						      </div>
-						    </div>
-						  </div>
+                            <div class="card-body">
+                                <img class="card-img-top" src="assets/images/4.jpg" alt="Card image" style="width:100%">
+                                <h4 class="mb-4" align="center">Contouring HIFU Cheek Treatment</h4>
+                                <hr />
+								<p class="mb-5">Kombinasi Treatment untuk menghancurkan lemak berlebih pada pipi dan mengencangkannya sehingga pipi tampak lebih tirus</p>
+                                <br>
+								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch">
+                        <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
+                            <div class="card-body">
+                                 <img class="card-img-top" src="assets/images/5.png" alt="Card image" style="width:100%">
+                                <h4 class="mb-4" align="center">Korean Platelet Rejuvenation</h4>
+                                <hr />
+								<p class="mb-5">Metode meremajakan kulit wajah dengan merangsang pembentukan kolagen dengan mikroneedle dengan kombinasi aplikasi plasma dari darah kita sendiri</p>
+								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
 
-						  <div class="card">
-						    <div class="card-header" id="headingTwo">
-						      <h2 class="mb-0">
-						        <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						          Massage Therapies
-						          <i class="fa" aria-hidden="true"></i>
-						        </button>
-						      </h2>
-						    </div>
-						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-						      <div class="card-body text-left">
-						      	<ul>
-						      		<li class="d-flex">
-						      			<span>Face Treatments</span>
-						      			<span>40 min.</span>
-						      			<span>$10</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Nail Treatments</span>
-						      			<span>30 min.</span>
-						      			<span>$20</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Medical Treatments</span>
-						      			<span>60 min.</span>
-						      			<span>$10</span>
-						      		</li>
-						      		<li class="d-flex">
-						      			<span>Hair Treatments</span>
-						      			<span>30 min.</span>
-						      			<span>$30</span>
-						      		</li>
-						      	</ul>
-						      </div>
-						    </div>
-						  </div>
-						</div>
-        	</div>
-
-
-        	<div class="col-lg-4">
-        		<div class="row no-gutters">
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-right-0 border-bottom-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-beauty-treatment"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Relaxation</h3>
-										<p>A small river named Duden flows by their place and supplies.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-bottom-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-relax"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Athlete</h3>
-										<p>A small river named Duden flows.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border border-right-0 p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-massage"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Thai</h3>
-										<p>A small river named Duden flows by their place and supplies.</p>
-									</div>
-								</div>
-        			</div>
-        			<div class="col-md-6 d-flex align-items-stretch">
-        				<div class="treatment w-100 text-center ftco-animate border p-3 py-4">
-									<div class="icon d-flex justify-content-center align-items-center">
-										<span class="flaticon-rose"></span>
-									</div>
-									<div class="text mt-2">
-										<h3>Rose</h3>
-										<p>A small river named Duden flows.</p>
-									</div>
-								</div>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-	  	</div>
 	  </section>
 
       <footer class="ftco-footer ftco-section">

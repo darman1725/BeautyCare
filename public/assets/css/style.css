@@ -2046,6 +2046,7 @@ textarea.form-control {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
+  margin-top: 10;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3796,7 +3797,8 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  background: rgb(248, 199, 153);
+  padding: 1.25rem;}
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -6633,7 +6635,7 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
-  margin-left: 3rem !important; }
+  margin-right: 0rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -6653,7 +6655,9 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 3rem !important;
+  color: #000;
+  opacity: 50%; }
 
 .ml-5,
 .mx-5 {
@@ -8530,8 +8534,7 @@ h1, h2, h3, h4, h5,
       background: #d9bf77;
       color: #fff; }
   .btn.btn-white {
-    background: #fff;
-    border: 1px solid #fff;
+    background: rgb(255, 220, 106);
     color: #000;
     -webkit-box-shadow: 0px 0px 25px -12px rgba(0, 0, 0, 0.26) !important;
     -moz-box-shadow: 0px 0px 25px -12px rgba(0, 0, 0, 0.26) !important;
@@ -8540,7 +8543,7 @@ h1, h2, h3, h4, h5,
       color: #000; }
     .btn.btn-white:hover {
       border: 1px solid #d9bf77;
-      background: #d9bf77;
+      background: #eecf7b;
       color: #fff; }
       .btn.btn-white:hover span {
         color: #fff; }
