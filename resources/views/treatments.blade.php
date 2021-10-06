@@ -77,11 +77,12 @@
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
                             <div class="card-body">
                                <img class="card-img-top" src="assets/images/1.png" alt="Card image" style="width:100%">
+                                <br><br>
                                 <h4 class="mb-4" align="center">Electrocautery</h4>
                                 <hr />
 								                <p class="mb-5">Electrocauter merupakan perawatan untuk mengangkat kutil atau tahi lalat dengan alat cauter</p>
                                 <br>
-								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								                <p><a href="electrocautery" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>
@@ -89,6 +90,7 @@
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
                             <div class="card-body">
                                <img class="card-img-top" src="assets/images/2.jpg" alt="Card image" style="width:100%">
+                               <br><br>
                                 <h4 class="mb-4" align="center">Botox Injection</h4>
                                 <hr />
 								                <p class="mb-5">Perawatan anti anging yang paling baik untuk menghilangkan kerutan di dahi antar alis dan samping kelopak mata</p>
@@ -100,6 +102,7 @@
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
                             <div class="card-body">
                                <img class="card-img-top" src="assets/images/6.jpg" alt="Card image" style="width:100%">
+                               <br><br>
                                 <h5 class="mb-4" align="center">Ella Purifying Detoxifying</h5>
                                 <hr />
 								                <p class="mb-5">Terapi untuk membersihkan kulit lebih dalam dari sisa make up,sisa metabolisme kulit,sekaligus mencerahkan dan melembabkan.</p>
@@ -110,10 +113,11 @@
                     <div class="col-md-4 d-flex align-items-stretch">
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
                             <div class="card-body">
-                                <img class="card-img-top" src="assets/images/3.jpg" alt="Card image" style="width:100%">
-                                <h4 class="mb-4" align="center">Bright Glow Skin Booster</h4>
+                                <img class="card-img-top" src="assets/images/14.jpg" alt="Card image" style="width:100%">
+                                <br><br>
+                                <h4 class="mb-4" align="center">Acne Cure for Back</h4>
                                 <hr />
-								                <p class="mb-5">Perpaduan perawatan antara injeksi Hyaluronic Acid dengan IPL Shower White yang memberikan hasil kulit lebih berkilau.</p>
+								                <p class="mb-5">Terapi Laser Diode 1450nm yang sangat efektif untuk mengurangi ukuran kelenjar minyak pada punggung</p>
                                 <br>
 								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
@@ -123,11 +127,12 @@
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
 
                             <div class="card-body">
-                                <img class="card-img-top" src="assets/images/4.jpg" alt="Card image" style="width:100%">
-                                <h4 class="mb-4" align="center">Contouring HIFU Cheek Treatment</h4>
+                                <img class="card-img-top" src="assets/images/16.jpg" alt="Card image" style="width:100%">
+                                <br><br>
+                                <h4 class="mb-4" align="center">Glow Neck Peel</h4>
                                 <hr />
-								<p class="mb-5">Kombinasi Treatment untuk menghancurkan lemak berlebih pada pipi dan mengencangkannya sehingga pipi tampak lebih tirus</p>
-                                <br>
+								<p class="mb-5">Peremajaan untuk leher, mencerahkan dan memudarkan noda hitam</p>
+                                <br><br>
 								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
@@ -135,10 +140,12 @@
                     <div class="col-md-4 d-flex align-items-stretch">
                         <div class="offer-deal text-center px-2 px-lg-5" style="width:400px">
                             <div class="card-body">
-                                 <img class="card-img-top" src="assets/images/5.png" alt="Card image" style="width:100%">
-                                <h4 class="mb-4" align="center">Korean Platelet Rejuvenation</h4>
+                                 <img class="card-img-top" src="assets/images/17.jpg" alt="Card image" style="width:100%">
+                                 <br><br>
+                                <h4 class="mb-4" align="center">Glow Armpit Peel</h4>
                                 <hr />
-								<p class="mb-5">Metode meremajakan kulit wajah dengan merangsang pembentukan kolagen dengan mikroneedle dengan kombinasi aplikasi plasma dari darah kita sendiri</p>
+								<p class="mb-5">Peremajaan untuk kulit ketiak, mencerahkan dan memudarkan noda hitam</p>
+                                <br><br>
 								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
