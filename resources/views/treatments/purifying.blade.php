@@ -127,12 +127,12 @@
                 <h2 class="ftco-heading-2">Punya Pertanyaan?</h2>
                 <div class="block-23 mb-3">
                   <ul>
-                    <li><a href="#"><span class="icon icon-map-marker"></span><span class="text">Jl. Sukarno Hatta No 32, Malang
-  </span></li>
-                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">081375685166
-  </span></a></li>
-                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">modav@gmail.com</span></a></li>
-                  </ul>
+                  <li><a href="https://www.google.com/maps/place/No+Jl.+Soekarno+Hatta+No.32,+Jatimulyo,+Kec.+Lowokwaru,+Kota+Malang,+Jawa+Timur+65141/@-7.944854,112.6172683,17z/data=!3m1!4b1!4m5!3m4!1s0x2e78827585d057ad:0x2a203682bd43f108!8m2!3d-7.944854!4d112.619457"><span class="icon icon-map-marker"></span><span class="text">Jl. Sukarno Hatta No 32, Malang
+</span></li>
+                  <li><a href="https://web.whatsapp.com"><span class="icon icon-phone"></span><span class="text">081375685166
+</span></a></li>
+                  <li><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue"><span class="icon icon-envelope"></span><span class="text">modav@gmail.com</span></a></li>
+                </ul>
                 </div>
               </div>
             </div>
