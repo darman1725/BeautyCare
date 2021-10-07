@@ -33,4 +33,10 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
  Route::get('/drainun', [App\Http\Controllers\BeautyCareController::class, 'drainun'])->name('docters.dokterainun');
 
+ Route::get('/drbalquist', [App\Http\Controllers\BeautyCareController::class, 'drbalquist'])->name('docters.dokterbalquist');
+
+
+ 
+
+
 
