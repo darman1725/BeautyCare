@@ -40,11 +40,12 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="{{ url('login') }}" class="nav-link">Login</a></li>
 	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
 	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
 	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="{{ url('logout') }}" class="nav-link">Logout</a></li>
+            <li class="nav-item"><a href="{{ url('logout') }}" class="nav-link">Logout</a></li>
 	        </ul>
 	      </div>
 		  </div>
