@@ -62,5 +62,19 @@ Route::get('/treatments', function () {
     return view('treatments');
 });
 
+Route::get('/doktercatherina', function () {
+    return view('doktercatherina');
+});
 
+Route::get('/dokterbalquist', function () {
+    return view('dokterbalquist');
+});
+
+Route::get('/dokterainun', function () {
+    return view('dokterainun');
+});
+
+Route::get('/dokteragustina', function () {
+    return view('dokteragustina');
+});
 
