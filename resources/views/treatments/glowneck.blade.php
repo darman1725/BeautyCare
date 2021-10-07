@@ -42,7 +42,6 @@
 	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
 	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
 	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="{{ url('logout') }}" class="nav-link">Logout</a></li>
 	        </ul>
 	      </div>
 		  </div>
