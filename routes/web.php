@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
+});
+
+/* File Pada Halaman About Beauty Care */
+Route::get('/login', function () {
+    return view('login');
 });
 
 /* File Pada Halaman About Beauty Care */
