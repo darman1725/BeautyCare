@@ -42,7 +42,8 @@ class BeautyCareController extends Controller
         return view('docters.dokterbalquist');
     }
 
-  
-
+    public function drcatherina(){
+        return view('docters.doktercatherina');
+    }
 
 }
