@@ -25,3 +25,7 @@ Route::get('/contact', [App\Http\Controllers\BeautyCareController::class, 'conta
 
 Route::get('/specialists', [App\Http\Controllers\BeautyCareController::class, 'specialists'])->name('layouts.specialists');
 
+Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'treatments'])->name('layouts.treatments');
+
+
+
