@@ -37,6 +37,9 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
   Route::get('/drcatherina', [App\Http\Controllers\BeautyCareController::class, 'drcatherina'])->name('docters.doktercatherina');
 
+
+  /* Method Untuk Folder Treatments */
+ Route::get('/acne', [App\Http\Controllers\BeautyCareController::class, 'acne'])->name('treatments.acne');
  
 
 

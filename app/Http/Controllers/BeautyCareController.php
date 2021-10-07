@@ -46,4 +46,8 @@ class BeautyCareController extends Controller
         return view('docters.doktercatherina');
     }
 
+    /* Method Untuk Folder Treatments */
+    public function acne(){
+        return view('treatments.acne');
+    }
 }
