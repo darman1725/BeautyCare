@@ -29,13 +29,13 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
 
  /* Method Untuk Folder Docters */
- Route::get('/dragustina', [App\Http\Controllers\BeautyCareController::class, 'dragustina'])->name('docters.dokteragustina');
+ Route::get('/dokteragustina', [App\Http\Controllers\BeautyCareController::class, 'dragustina'])->name('docters.dokteragustina');
 
- Route::get('/drainun', [App\Http\Controllers\BeautyCareController::class, 'drainun'])->name('docters.dokterainun');
+ Route::get('/dokterainun', [App\Http\Controllers\BeautyCareController::class, 'drainun'])->name('docters.dokterainun');
 
- Route::get('/drbalquist', [App\Http\Controllers\BeautyCareController::class, 'drbalquist'])->name('docters.dokterbalquist');
+ Route::get('/dokterbalquist', [App\Http\Controllers\BeautyCareController::class, 'drbalquist'])->name('docters.dokterbalquist');
 
-  Route::get('/drcatherina', [App\Http\Controllers\BeautyCareController::class, 'drcatherina'])->name('docters.doktercatherina');
+  Route::get('/doktercatherina', [App\Http\Controllers\BeautyCareController::class, 'drcatherina'])->name('docters.doktercatherina');
 
 
   /* Method Untuk Folder Treatments */

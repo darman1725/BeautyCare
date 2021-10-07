@@ -201,8 +201,8 @@ a:hover {
                         <div class="row justify-content-center px-3 mb-3"> <img id="logo" src="assets/images/icon.png"> </div>
                         <h3 class="mb-5 text-center heading">BeautyCare</h3>
                         <h6 class="msg-info">Silahkan Login Dari Akun Anda</h6>
-                        <div class="form-group"> <label class="form-control-label text-muted">Username</label> <input type="text" id="email" name="email" placeholder="Phone no or email id" class="form-control"> </div>
-                        <div class="form-group"> <label class="form-control-label text-muted">Password</label> <input type="password" id="psw" name="psw" placeholder="Password" class="form-control"> </div>
+                        <div class="form-group"> <label class="form-control-label text-muted">Username</label> <input type="text" id="email" name="email" placeholder="Masukkan Username" class="form-control"> </div>
+                        <div class="form-group"> <label class="form-control-label text-muted">Password</label> <input type="password" id="psw" name="psw" placeholder="Masukkan Password" class="form-control"> </div>
                         <div class="row justify-content-center my-3 px-3"> <button class="btn-block btn-color">Masuk ke BeautyCare</button> </div>
                         <div class="row justify-content-center my-2"> <a href="#"><small class="text-muted">Forgot Password?</small></a> </div>
                     </div>
@@ -219,8 +219,12 @@ a:hover {
                 </div>
             </div>
         </div>
+        <div class="footer">
+      <marquee><b>Selamat Datang Di Website Beauty Care - Perawatan Kecantikan Kulit & Konsultasi Kesehatan Kulit Wanita</b></marquee>
+    </div>
     </div>
 </div>
+
                                 <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
                                 <script type='text/javascript'></script>
                                 </body>
