@@ -170,8 +170,28 @@ a:hover {
     }
 }</style>
    <link rel="shortcut icon" href="assets/images/icon.png">
+
                                 </head>
+                                
                                 <body oncontextmenu='return false' class='snippet-body'>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="{{ url('index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="{{ url('sigin') }}" class="nav-link">Login</a></li>
+	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
+	          <li class="nav-item active"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+                                
                                 <div class="container px-4 py-5 mx-auto">
     <div class="card card0">
         <div class="d-flex flex-lg-row flex-column-reverse">
@@ -193,7 +213,9 @@ a:hover {
             </div>
             <div class="card card2">
                 <div class="my-auto mx-md-5 px-md-5 right">
-                    <h3 class="text-white">We are more than just a company</h3> <small class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+                    <h3 class="text-white">Kami Tidak Sekedar Perawatan Kecantikan</h3> <medium class="text-white">Di Klinik BeautyCare kami menyadari bahwa setiap individu memiliki
+                jenis dan masalah kulit yang berbeda-beda, untuk itu kami menyediakan berbagai macam perawatan kecantikan
+                kulit yang dilakukan langsung oleh dokter spesialis kulit dan kecantikan.</small>
                 </div>
             </div>
         </div>
