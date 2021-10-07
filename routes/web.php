@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('welcome');
 });
 
 /* File Pada Halaman About Beauty Care */
-Route::get('/login', function () {
+Route::get('/sigin', function () {
     return view('login');
 });
 
@@ -69,5 +69,3 @@ Route::get('/treatments', function () {
 });
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
