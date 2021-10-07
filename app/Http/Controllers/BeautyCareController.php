@@ -15,6 +15,10 @@ class BeautyCareController extends Controller
     public function login(){
         return view('layouts.login');
     }
+
+    public function register(){
+        return view('layouts.register');
+    }
     
     public function contact(){
         return view('layouts.contact');

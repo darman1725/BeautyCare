@@ -3,7 +3,7 @@
                             <head>
                                 <meta charset='utf-8'>
                                 <meta name='viewport' content='width=device-width, initial-scale=1'>
-                                <title>BeautyCare - Halaman Login </title>
+                                <title>BeautyCare - Halaman Register </title>
                                 <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
                                 <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
                                 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
@@ -182,6 +182,7 @@ a:hover {
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="{{ url('login') }}" class="nav-link">Login</a></li>
 	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
 	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
@@ -199,15 +200,12 @@ a:hover {
                     <div class="col-md-8 col-10 my-5">
                         <div class="row justify-content-center px-3 mb-3"> <img id="logo" src="assets/images/icon.png"> </div>
                         <h3 class="mb-5 text-center heading">BeautyCare</h3>
-                        <h6 class="msg-info">Silahkan Login Dari Akun Anda</h6>
-                        <div class="form-group"> <label class="form-control-label text-muted">Username</label> <input type="text" id="email" name="email" placeholder="Masukkan Username" class="form-control"> </div>
-                        <div class="form-group"> <label class="form-control-label text-muted">Password</label> <input type="password" id="psw" name="psw" placeholder="Masukkan Password" class="form-control"> </div>
-                        <div class="row justify-content-center my-3 px-3"> <a href="{{ url('index') }} "class="btn btn-white ml-2">Masuk ke BeautyCare</a> </div>
-                        <div class="row justify-content-center my-2"> <a href="#"><small class="text-muted">Forgot Password?</small></a></div>
+                        <h6 class="msg-info">Silahkan Register Akun Anda</h6>
+                        <div class="form-group"> <label class="form-control-label text-muted">Username</label> <input type="text" id="name" name="name" placeholder="Masukkan Username" class="form-control"> </div>
+                        <div class="form-group"> <label class="form-control-label text-muted">Email</label> <input type="email" id="email" name="email" placeholder="Masukkan Email" class="form-control"> </div>
+                        <div class="form-group"> <label class="form-control-label text-muted">Password</label> <input type="password" id="password" name="password" placeholder="Masukkan Password" class="form-control"> </div>
+                        <div class="row justify-content-center my-3 px-3"> <button class="btn-block btn-color">Register</button> </div>
                     </div>
-                </div>
-                <div class="bottom text-center mb-5">
-                    <p href="#" class="sm-text mx-auto mb-3">Tidak Punya Akun?<a href="{{ url('register') }} "class="btn btn-white ml-2">Buat Akun</a></p>
                 </div>
             </div>
             <div class="card card2">

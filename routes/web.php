@@ -21,6 +21,8 @@ Route::get('/index', [App\Http\Controllers\BeautyCareController::class, 'index']
 
 Route::get('/login', [App\Http\Controllers\BeautyCareController::class, 'login'])->name('layouts.login');
 
+Route::get('/register', [App\Http\Controllers\BeautyCareController::class, 'register'])->name('layouts.register');
+
 Route::get('/contact', [App\Http\Controllers\BeautyCareController::class, 'contact'])->name('layouts.contact');
 
 Route::get('/specialists', [App\Http\Controllers\BeautyCareController::class, 'specialists'])->name('layouts.specialists');
@@ -53,3 +55,7 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
  /* Method Untuk Folder Dashboard */
  Route::get('/formreservasi', [App\Http\Controllers\BeautyCareController::class, 'formreservasi'])->name('dashboard.formreservasi');
+
+  /* Method Post Login dan Register */
+
+  Route::get('/register-user', [App\Http\Controllers\Auth\RegisterController::class, 'create'])->name('register-user');
