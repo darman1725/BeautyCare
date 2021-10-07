@@ -58,4 +58,8 @@ class BeautyCareController extends Controller
     public function electrocautery(){
         return view('treatments.electrocautery');
     }
+
+    public function glowarmpit(){
+        return view('treatments.glowarmpit');
+    }
 }
