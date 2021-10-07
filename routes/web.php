@@ -27,7 +27,7 @@ Route::get('/sigin', function () {
 Route::get('/about', function () {
     return view('about');
 });
-     
+
 /* File Pada Halaman Contact Beauty Care */
 Route::get('/contact', function () {
     return view('contact');
@@ -36,7 +36,7 @@ Route::get('/contact', function () {
 /* File Pada Halaman Index Beauty Care */
 Route::get('/index', function () {
     return view('index');
-}); 
+});
 
 
 /* File Pada Halaman Main Beauty Care */
@@ -53,6 +53,38 @@ Route::get('/specialists', function () {
 Route::get('/treatments', function () {
     return view('treatments');
 });
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/acne', function () {
+    return view('acne');
+});
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/botox', function () {
+    return view('botox');
+});
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/electrocautery', function () {
+    return view('electrocautery');
+});
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/glowarmpit', function () {
+    return view('glowarmpit');
+});
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/glowneck', function () {
+    return view('glowneck');
+});
+
+/* File Pada Halaman Treatments Beauty Care */
+Route::get('/purifying', function () {
+    return view('purifying');
+});
+
+
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
