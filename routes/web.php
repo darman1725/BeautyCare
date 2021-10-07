@@ -21,3 +21,4 @@ Route::get('/index', [App\Http\Controllers\BeautyCareController::class, 'index']
 
 Route::get('/login', [App\Http\Controllers\BeautyCareController::class, 'login'])->name('layouts.login');
 
+Route::get('/contact', [App\Http\Controllers\BeautyCareController::class, 'contact'])->name('layouts.contact');
