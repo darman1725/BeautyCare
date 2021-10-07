@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
+Route::get('/index', [App\Http\Controllers\BeautyCareController::class, 'index'])->name('layouts.index');
+
+
 Route::get('/acne', function () {
     return view('acne');
 });
@@ -42,9 +47,7 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+
 
 Route::get('/login', function () {
     return view('login');
