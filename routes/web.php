@@ -50,3 +50,6 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
  Route::get('/glowneck', [App\Http\Controllers\BeautyCareController::class, 'glowneck'])->name('treatments.glowneck');
 
  Route::get('/purifying', [App\Http\Controllers\BeautyCareController::class, 'purifying'])->name('treatments.purifying');
+
+ /* Method Untuk Folder Dashboard */
+ Route::get('/formreservasi', [App\Http\Controllers\BeautyCareController::class, 'formreservasi'])->name('dashboard.formreservasi');

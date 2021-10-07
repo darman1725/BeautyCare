@@ -70,4 +70,9 @@ class BeautyCareController extends Controller
     public function purifying(){
         return view('treatments.purifying');
     }
+
+    /* Method Untuk Folder Dashboard */
+    public function formreservasi(){
+        return view('dashboard.formreservasi');
+    }
 }
