@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,17 +27,7 @@ Route::get('/sigin', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
-/* File Pada Halaman Blog Single Beauty Care */
-Route::get('/blog-single', function () {
-    return view('blog-single');
-});
-
-/* File Pada Halaman Blog Single Beauty Care */
-Route::get('/blog', function () {
-    return view('blog');
-});
-       
+     
 /* File Pada Halaman Contact Beauty Care */
 Route::get('/contact', function () {
     return view('contact');
@@ -53,11 +44,6 @@ Route::get('/main', function () {
     return view('main');
 });
 
-/* File Pada Halaman Pricing Beauty Care */
-Route::get('/pricing', function () {
-    return view('pricing');
-});
-
 /* File Pada Halaman Specialist Beauty Care */
 Route::get('/specialists', function () {
     return view('specialists');
@@ -66,6 +52,9 @@ Route::get('/specialists', function () {
 /* File Pada Halaman Treatments Beauty Care */
 Route::get('/treatments', function () {
     return view('treatments');
+});
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
 });
 
 Auth::routes();
