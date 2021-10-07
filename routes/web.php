@@ -28,4 +28,8 @@ Route::get('/specialists', [App\Http\Controllers\BeautyCareController::class, 's
 Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'treatments'])->name('layouts.treatments');
 
 
+ /* Method Untuk Folder Docters */
+ Route::get('/dragustina', [App\Http\Controllers\BeautyCareController::class, 'dragustina'])->name('docters.dokteragustina');
+
+
 

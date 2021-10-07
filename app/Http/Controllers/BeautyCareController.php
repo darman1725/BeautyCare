@@ -28,5 +28,11 @@ class BeautyCareController extends Controller
         return view('layouts.treatments');
     }
 
+    /* Method Untuk Folder Docters */
+
+    public function dragustina(){
+        return view('docters.dokteragustina');
+    }
+
 
 }
