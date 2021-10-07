@@ -62,4 +62,8 @@ class BeautyCareController extends Controller
     public function glowarmpit(){
         return view('treatments.glowarmpit');
     }
+
+    public function glowneck(){
+        return view('treatments.glowneck');
+    }
 }

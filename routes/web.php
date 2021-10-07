@@ -47,6 +47,6 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
  Route::get('/glowarmpit', [App\Http\Controllers\BeautyCareController::class, 'glowarmpit'])->name('treatments.glowarmpit');
  
-
+ Route::get('/glowneck', [App\Http\Controllers\BeautyCareController::class, 'glowneck'])->name('treatments.glowneck');
 
 
