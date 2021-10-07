@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 /* File Pada Halaman About Beauty Care */
 Route::get('/sigin', function () {
     return view('login');
