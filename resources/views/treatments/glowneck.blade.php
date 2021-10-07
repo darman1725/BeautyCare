@@ -112,10 +112,10 @@
               <div class="ftco-footer-widget mb-4">
                 <h2 class="ftco-heading-2">Quick</h2>
                 <ul class="list-unstyled">
-                <li><a href="{{ url('index') }}">Home</a></li>
-                <li><a href="{{ url('treatments') }}">Treatments</a></li>
-                <li><a href="{{ url('specialists') }}">Doctor</a></li>
-                <li><a href="{{ url('contact') }}">Contact</a></li>
+                <li class="ftco-heading-3"><a href="{{ url('index') }}">Home</a></li>
+                <li class="ftco-heading-3"><a href="{{ url('treatments') }}">Treatments</a></li>
+                <li class="ftco-heading-3"><a href="{{ url('specialists') }}">Doctor</a></li>
+                <li class="ftco-heading-3"><a href="{{ url('contact') }}">Contact</a></li>
                 </ul>
               </div>
             </div>
