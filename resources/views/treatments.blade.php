@@ -94,7 +94,7 @@
                                 <h4 class="mb-4" align="center">Botox Injection</h4>
                                 <hr />
 								                <p class="mb-5">Perawatan anti anging yang paling baik untuk menghilangkan kerutan di dahi antar alis dan samping kelopak mata</p>
-								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								                <p><a href="botox" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>
@@ -103,10 +103,10 @@
                             <div class="card-body">
                                <img class="card-img-top" src="assets/images/6.jpg" alt="Card image" style="width:100%">
                                <br><br>
-                                <h5 class="mb-4" align="center">Ella Purifying Detoxifying</h5>
+                                <h5 class="mb-4" align="center">Purifying Detoxifying</h5>
                                 <hr />
 								                <p class="mb-5">Terapi untuk membersihkan kulit lebih dalam dari sisa make up,sisa metabolisme kulit,sekaligus mencerahkan dan melembabkan.</p>
-								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								                <p><a href="purifying" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                                 <hr />
 								                <p class="mb-5">Terapi Laser Diode 1450nm yang sangat efektif untuk mengurangi ukuran kelenjar minyak pada punggung</p>
                                 <br>
-								                <p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								                <p><a href="acne" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                 <hr />
 								<p class="mb-5">Peremajaan untuk leher, mencerahkan dan memudarkan noda hitam</p>
                                 <br><br>
-								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								<p><a href="glowneck" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                                 <hr />
 								<p class="mb-5">Peremajaan untuk kulit ketiak, mencerahkan dan memudarkan noda hitam</p>
                                 <br><br>
-								<p><a href="#" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
+								<p><a href="glowarmpit" class="btn btn-white px-4 py-3"><img src="assets/images/shopping-cart.png" style="width:8%"> Detail</span></a></p>
                             </div>
                         </div>
                     </div>

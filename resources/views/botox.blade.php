@@ -69,19 +69,19 @@
                     </div>
                     <br>
                     <p class="mb-4" align="center">Price</p>
-                    <h2 style="font-weight=bold" align="center">Rp 1.999.000</h2>
+                    <h2 style="font-weight=bold" align="center">Rp 1.000.000</h2>
                     <hr />
                 </div>
                 <div class="col-md-1"></div>
       <div class="col-md-6 ftco-animate">
-        <h2 class="mb-4">Electrocautery</h2>
-    	<p>Electrocauter merupakan perawatan untuk mengangkat kutil atau tahi lalat dengan alat cauter.
-            Prosedur ini dilakukan menggunakan alat bernama electrocauter yang bekerja dengan cara
-            memanfaatkan aliran listrik dan menghasilkan efek panas untuk membakar maupun memotong jaringan.
+        <h2 class="mb-4">Botox Injection</h2>
+    	<p>Perawatan ini dilakukan untuk menghilangkan atau meminimalisir munculnya kerutan dan tanda penuaan lainnya.
+        Prosedur minimal luka ini menggunakan toksin dari bakteri yang disebut Clostridium botulinum.
         </p>
-        <p>Electrocautery relatif aman. Beberapa orang menyebut prosedur ini sebagai electrosurgery. Orang yang
-        menjalani electrocautery akan diberikan pelindung khusus pada tubuhnya sebelum prosedur.
-        Langkah ini bertujuan melindungi area kulit lain agar tidak ikut terbakar.
+        <p>Botox digunakan secara luas dalam perawatan kecantikan. Ini direkomendasikan untuk invidu yang ingin menghilangkan atau meminimalisir munculnya kerutan dan garis wajah lainnya, seperti:
+            <li>Garis di sekitar sudut mata</li>
+            <li>Garis kerutan atau lipatan dalam yang terbentuk di sekitar alis mata</li>
+            <li>Alur dahi atau garis yang muncul saat alis dinaikkan</li>
         </p>
         <input type="submit" value="Reservasi" class="btn btn-primary py-3 px-5">
       </div>

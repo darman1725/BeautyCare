@@ -65,23 +65,22 @@
     		<div class="row block-9">
                 <div class="col-md-4 contact-info ftco-animate">
                     <div class="row">
-                        <img class="card-img-top" src="assets/images/17.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="assets/images/6.jpg" alt="Card image" style="width:100%">
                     </div>
                     <br>
                     <p class="mb-4" align="center">Price</p>
-                    <h2 style="font-weight=bold" align="center">Rp 300.000</h2>
+                    <h2 style="font-weight=bold" align="center">Rp 900.000</h2>
                     <hr />
                 </div>
                 <div class="col-md-1"></div>
       <div class="col-md-6 ftco-animate">
-        <h2 class="mb-4">Glow Armpit Peel</h2>
-    	<p>
-        Treatment ini berfungsi untuk mengangkat sel kulit mati yang telah menumpuk di ketiak.
-        Dimana kulit mati ini yang menyebabkan warna kulit ketiak terlihat gelap.Tidak hanya
-        mengangkat sel kulit mati pada ketiak. Namun juga mampu mencerahkan warna kulit ketiak hingga menghaluskan kulit ketiak.
-
+        <h2 class="mb-4">Purifying Detoxifying</h2>
+    	<p>Terapi untuk membersihkan kulit lebih dalam dari sisa make up, polusi udara, sisa metabolisme kulit,
+            sekaligus mencerahkan dan melembabkan. Kulit lebih kenyal, cerah & lembab.
         </p>
-
+        <p>Purifying juga mampu menarik minyak berlebih di kulit sekaligus menjaga keseimbangan minyak di kulit.
+            Sehingga minyak tidak terkumpul di permukaan epidermis kulit, melainkan melembapkan kulit bagian dalam agar jumlah minyak dipermukaan tidak terlalu banyak.
+        </p>
         <input type="submit" value="Reservasi" class="btn btn-primary py-3 px-5">
       </div>
     </div>
