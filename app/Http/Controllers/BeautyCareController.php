@@ -19,4 +19,8 @@ class BeautyCareController extends Controller
     public function contact(){
         return view('layouts.contact');
     }
+
+    public function specialists(){
+        return view('layouts.specialists');
+    }
 }
