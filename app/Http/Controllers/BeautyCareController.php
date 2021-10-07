@@ -66,4 +66,8 @@ class BeautyCareController extends Controller
     public function glowneck(){
         return view('treatments.glowneck');
     }
+
+    public function purifying(){
+        return view('treatments.purifying');
+    }
 }
