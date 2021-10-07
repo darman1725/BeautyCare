@@ -43,7 +43,7 @@ Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'tr
 
  Route::get('/botox', [App\Http\Controllers\BeautyCareController::class, 'botox'])->name('treatments.botox');
 
-
+ Route::get('/electrocautery', [App\Http\Controllers\BeautyCareController::class, 'electrocautery'])->name('treatments.electrocautery');
  
 
 

@@ -54,4 +54,8 @@ class BeautyCareController extends Controller
     public function botox(){
         return view('treatments.botox');
     }
+
+    public function electrocautery(){
+        return view('treatments.electrocautery');
+    }
 }
