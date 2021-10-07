@@ -9713,3 +9713,10 @@ textarea.form-control {
   font-size: 15px;
   margin: 4px 2px;
 }
+
+#rectangle{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(255, 207, 117);
+    opacity: 70%;
+}

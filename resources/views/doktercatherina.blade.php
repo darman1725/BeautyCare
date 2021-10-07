@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BeautyCare - Halaman Specialists</title>
+    <title>Treatments Electrocautery</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
 
-
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -40,8 +39,8 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
-	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
+	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
 	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
               <li class="nav-item"><a href="{{ url('logout') }}" class="nav-link">Logout</a></li>
 	        </ul>
@@ -51,88 +50,45 @@
     <!-- END nav -->
 
     <section class="hero-wrap hero-wrap-2" style="background-image: url('assets/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-3 bread">Our Team Doctor</h1>
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+              <h1 class="mb-3 bread">Treatments</h1>
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
-		<section class="ftco-section">
+    <section class="ftco-section">
     	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h3 class="subheading">Doctor</h3>
-            <h2 class="mb-1">Meet Our Treatments Specialists</h2>
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-lg-3 d-flex">
-    				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/dokter1.png);"></div>
-	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
-	    					<h3><a href="#">dr. Catherina Jessica Sutantoyo, Sp.KK</a></h3>
-	    					<p>dr. Catherina Jessica Sutantoyo, Sp. KK adalah seorang Dokter Spesialis Kulit dan Kelamin
-                  yang aktif melayani pasien di BeautyCare. dr. Catherina Jessica Sutantoyo mendapatkan
-                  gelar spesialisnya setelah menamatkan pendidikan di Universitas Padjadjaran pada tahun 2015.</p>
-	    					<p></p>
-	    				</div>
-              <br>
-              <p><a href="doktercatherina" class="btn btn-white px-4 py-3"> Detail</span></a></p>
-              <link>
-	    			</div>
-    			</div>
-    			<div class="col-lg-3 d-flex">
-    				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/dokter2.png);"></div>
-	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
-	    					<h3><a href="#">dr. Agustina Tripujiastuti, Sp.KK</a></h3>
-	    					<p>dr. Agustina Tripujiastuti, Sp.KK adalah seorang Dokter Spesialis Kulit dan Kelamin yang aktif melayani pasien
-                  di Klinik BeautyCare dr. Agustina Tripujiastuti mendapatkan gelar spesialisnya setelah menamatkan pendidikan
-                  di Universitas Airlangga pada tahun 2016.</p>
-	    					<p></p>
-	    				</div>
-              <br><br>
-              <p><a href="dokteragustina" class="btn btn-white px-4 py-3"> Detail</span></a></p>
-	    			</div>
-    			</div>
-    			<div class="col-lg-3 d-flex">
-    				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/dokter2.1.png);"></div>
-	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Dokter Umum</span>
-	    					<h3><a href="#">dr. Ainun Rojannah Ayatullah</a></h3>
-	    					<p>dr. Ainun Rojannah Ayatullah adalah seorang Dokter Umum yang aktif melayani pasien di Klinik BeautyCare. dr. Ainun Rojannah Ayatullah mendapatkan gelar
-                  kedokterannya setelah menamatkan pendidikan di Universitas Trisakti.</p>
-	    					<p></p>
-	    				</div>
-              <br><br><br>
-              <p><a href="dokterainun" class="btn btn-white px-4 py-3"> Detail</span></a></p>
-	    			</div>
-    			</div>
-    			<div class="col-lg-3 d-flex">
-    				<div class="coach align-items-stretch">
-	    				<div class="img" style="background-image: url(assets/images/dokter4.png);"></div>
-	    				<div class="text bg-white p-4 ftco-animate">
-	    					<span class="subheading">Dokter Kulit dan Kelamin</span>
-	    					<h3><a href="#">dr. Balquist Farida, Sp.KK</a></h3>
-	    					<p>dr. Balquist Farida, Sp.KK adalah seorang Dokter Spesialis Kulit dan Kelamin yang aktif melayani
-                  pasien di BeautyCare. dr. Balquist Farida mendapatkan gelar spesialisnya
-                  setelah menamatkan pendidikan di Universitas Indonesia.</p>
-	    					<p></p>
-	    				</div>
-              <br><br><br><br>
-              <p><a href="dokterbalquist" class="btn btn-white px-4 py-3"> Detail</span></a></p>
-	    			</div>
-    			</div>
-    		</div>
+    		<div class="row block-9">
+                <div class="col-md-4 contact-info ftco-animate">
+                    <div class="row">
+                        <img class="card-img-top" src="assets/images/dokter1.png" alt="Card image" style="width:100%">
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-1"></div>
+      <div class="col-md-6 ftco-animate">
+        <h2 class="mb-4">dr. Catherina Jessica Sutantoyo, Sp.KK</h2>
+        <div id="rectangle" align="center">Dokter Kulit dan Kelamin</div>
+        <br><br>
+        <b><h5>Jadwal Tersedia:</h5><b>
+    	<p>
+            <li>Senin  : 08.00 - 15.00</li>
+            <li>Selasa : 08.00 - 15.00</li>
+            <li>Rabu   : 08.00 - 12.00</li>
+            <li>Kamis  : 08.00 - 10.00</li>
+            <li>Jumat  : 08.00 - 15.00</li>
+        </p>
+        <br><br>
+        <input type="submit" value="Konsultasi" class="btn btn-primary py-3 px-5">
+      </div>
+    </div>
     	</div>
     </section>
+
 
     <footer class="ftco-footer ftco-section">
         <div class="container">
