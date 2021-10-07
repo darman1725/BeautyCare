@@ -8518,9 +8518,9 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #d9bf77 !important;
+    background: #ffd68a !important;
     border: 1px solid #d9bf77 !important;
-    color: #fff; }
+    color: rgb(0, 0, 0); }
     .btn.btn-primary:hover {
       border: 1px solid #d9bf77;
       background: transparent !important;
