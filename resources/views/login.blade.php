@@ -182,7 +182,7 @@ a:hover {
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a href="{{ url('sigin') }}" class="nav-link">Login</a></li>
+              <li class="nav-item active"><a href="{{ url('login') }}" class="nav-link">Login</a></li>
 	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
 	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
