@@ -16,68 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
+ /* Method Untuk Folder Layouts */
 Route::get('/index', [App\Http\Controllers\BeautyCareController::class, 'index'])->name('layouts.index');
 
-
-Route::get('/acne', function () {
-    return view('acne');
-});
-
-Route::get('/botox', function () {
-    return view('botox');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/electrocautery', function () {
-    return view('electrocautery');
-});
-
-Route::get('/glowarmpit', function () {
-    return view('glowarmpit');
-});
-
-Route::get('/glowneck', function () {
-    return view('glowneck');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-
-
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/purifying', function () {
-    return view('purifying');
-});
-
-Route::get('/specialists', function () {
-    return view('specialists');
-});
-
-Route::get('/treatments', function () {
-    return view('treatments');
-});
-
-Route::get('/doktercatherina', function () {
-    return view('doktercatherina');
-});
-
-Route::get('/dokterbalquist', function () {
-    return view('dokterbalquist');
-});
-
-Route::get('/dokterainun', function () {
-    return view('dokterainun');
-});
-
-Route::get('/dokteragustina', function () {
-    return view('dokteragustina');
-});
+Route::get('/login', [App\Http\Controllers\BeautyCareController::class, 'login'])->name('layouts.login');
 
