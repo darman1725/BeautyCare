@@ -39,8 +39,8 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
-	          <li class="nav-item"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
+	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
 	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -53,7 +53,7 @@
         <div class="container">
           <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
             <div class="col-md-9 ftco-animate text-center">
-              <h1 class="mb-3 bread">Treatments</h1>
+              <h1 class="mb-3 bread">Doctor</h1>
             </div>
           </div>
         </div>
