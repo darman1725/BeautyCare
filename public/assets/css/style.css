@@ -9720,3 +9720,12 @@ textarea.form-control {
     background-color: rgb(255, 207, 117);
     opacity: 70%;
 }
+
+.spad {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.treatments{
+	padding-bottom: 120px;
+}
