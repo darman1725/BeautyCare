@@ -17,45 +17,46 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
  /* Method Untuk Folder Layouts */
-Route::get('/index', [App\Http\Controllers\BeautyCareController::class, 'index'])->name('layouts.index');
+Route::get('/indexLayouts', [App\Http\Controllers\BeautyCareController::class, 'indexLayouts'])->name('layouts.index');
 
-Route::get('/login', [App\Http\Controllers\BeautyCareController::class, 'login'])->name('layouts.login');
+Route::get('/loginLayouts', [App\Http\Controllers\BeautyCareController::class, 'loginLayouts'])->name('layouts.login');
 
-Route::get('/register', [App\Http\Controllers\BeautyCareController::class, 'register'])->name('layouts.register');
+Route::get('/registerLayouts', [App\Http\Controllers\BeautyCareController::class, 'registerLayouts'])->name('layouts.register');
 
-Route::get('/contact', [App\Http\Controllers\BeautyCareController::class, 'contact'])->name('layouts.contact');
+Route::get('/contactLayouts', [App\Http\Controllers\BeautyCareController::class, 'contactLayouts'])->name('layouts.contact');
 
-Route::get('/specialists', [App\Http\Controllers\BeautyCareController::class, 'specialists'])->name('layouts.specialists');
+Route::get('/specialistsLayouts', [App\Http\Controllers\BeautyCareController::class, 'specialistsLayouts'])->name('layouts.specialists');
 
-Route::get('/treatments', [App\Http\Controllers\BeautyCareController::class, 'treatments'])->name('layouts.treatments');
+Route::get('/treatmentsLayouts', [App\Http\Controllers\BeautyCareController::class, 'treatmentsLayouts'])->name('layouts.treatments');
+
+Route::get('/formreservasiLayouts', [App\Http\Controllers\BeautyCareController::class, 'formreservasiLayouts'])->name('layouts.formreservasi');
+
+Route::get('/masterLayouts', [App\Http\Controllers\BeautyCareController::class, 'masterLayouts'])->name('layouts.master');
 
 
- /* Method Untuk Folder Docters */
- Route::get('/dokteragustina', [App\Http\Controllers\BeautyCareController::class, 'dragustina'])->name('docters.dokteragustina');
+ /* Method Untuk Folder Doctors */
+ Route::get('/createDoctors', [App\Http\Controllers\BeautyCareController::class, 'createDoctors'])->name('doctors.create');
 
- Route::get('/dokterainun', [App\Http\Controllers\BeautyCareController::class, 'drainun'])->name('docters.dokterainun');
+ Route::get('/detailDoctors', [App\Http\Controllers\BeautyCareController::class, 'detailDoctors'])->name('doctors.detail');
 
- Route::get('/dokterbalquist', [App\Http\Controllers\BeautyCareController::class, 'drbalquist'])->name('docters.dokterbalquist');
+ Route::get('/editDoctors', [App\Http\Controllers\BeautyCareController::class, 'editDoctors'])->name('doctors.edit');
 
-  Route::get('/doktercatherina', [App\Http\Controllers\BeautyCareController::class, 'drcatherina'])->name('docters.doktercatherina');
+ Route::get('/indexDoctors', [App\Http\Controllers\BeautyCareController::class, 'indexDoctors'])->name('doctors.index');
 
 
   /* Method Untuk Folder Treatments */
- Route::get('/acne', [App\Http\Controllers\BeautyCareController::class, 'acne'])->name('treatments.acne');
+  Route::get('/createTreatments', [App\Http\Controllers\BeautyCareController::class, 'createTreatments'])->name('doctors.create');
 
- Route::get('/botox', [App\Http\Controllers\BeautyCareController::class, 'botox'])->name('treatments.botox');
-
- Route::get('/electrocautery', [App\Http\Controllers\BeautyCareController::class, 'electrocautery'])->name('treatments.electrocautery');
-
- Route::get('/glowarmpit', [App\Http\Controllers\BeautyCareController::class, 'glowarmpit'])->name('treatments.glowarmpit');
+  Route::get('/detailTreatments', [App\Http\Controllers\BeautyCareController::class, 'detailTreatments'])->name('doctors.detail');
  
- Route::get('/glowneck', [App\Http\Controllers\BeautyCareController::class, 'glowneck'])->name('treatments.glowneck');
+  Route::get('/editTreatments', [App\Http\Controllers\BeautyCareController::class, 'editTreatments'])->name('doctors.edit');
+ 
+  Route::get('/indexTreatments', [App\Http\Controllers\BeautyCareController::class, 'indexTreatments'])->name('doctors.index');
 
- Route::get('/purifying', [App\Http\Controllers\BeautyCareController::class, 'purifying'])->name('treatments.purifying');
 
  /* Method Untuk Folder Dashboard */
  Route::get('/formreservasi', [App\Http\Controllers\BeautyCareController::class, 'formreservasi'])->name('dashboard.formreservasi');
 
-  /* Method Post Login dan Register */
 
-  Route::get('/register-user', [App\Http\Controllers\Auth\RegisterController::class, 'create'])->name('register-user');
+ /* Method Untuk Folder Customers */
+ Route::get('/customersTreatments', [App\Http\Controllers\BeautyCareController::class, 'customersTreatments'])->name('customers.customersTreatments');

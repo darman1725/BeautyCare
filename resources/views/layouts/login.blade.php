@@ -176,16 +176,16 @@ a:hover {
                                 <body oncontextmenu='return false' class='snippet-body'>
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{{ url('index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
+	      <a class="navbar-brand" href="{{ route('layouts.index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
-	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
-	          <li class="nav-item active"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="{{ route('layouts.index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="{{ route('layouts.treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item active"><a href="{{ route('layouts.specialists') }}" class="nav-link">Doctor</a></li>
+	          <li class="nav-item active"><a href="{{ route('layouts.contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -202,12 +202,12 @@ a:hover {
                         <h6 class="msg-info">Silahkan Login Dari Akun Anda</h6>
                         <div class="form-group"> <label class="form-control-label text-muted">Username</label> <input type="text" id="email" name="email" placeholder="Masukkan Username" class="form-control"> </div>
                         <div class="form-group"> <label class="form-control-label text-muted">Password</label> <input type="password" id="psw" name="psw" placeholder="Masukkan Password" class="form-control"> </div>
-                        <div class="row justify-content-center my-3 px-3"> <a href="{{ url('index') }} "class="btn btn-white ml-2">Masuk ke BeautyCare</a> </div>
+                        <div class="row justify-content-center my-3 px-3"> <a href="{{ route('layouts.index') }} "class="btn btn-white ml-2">Masuk ke BeautyCare</a> </div>
                         <div class="row justify-content-center my-2"> <a href="#"><small class="text-muted">Forgot Password?</small></a></div>
                     </div>
                 </div>
                 <div class="bottom text-center mb-5">
-                    <p href="#" class="sm-text mx-auto mb-3">Tidak Punya Akun?<a href="{{ url('register') }} "class="btn btn-white ml-2">Buat Akun</a></p>
+                    <p href="#" class="sm-text mx-auto mb-3">Tidak Punya Akun?<a href="{{ route('layouts.register') }} "class="btn btn-white ml-2">Buat Akun</a></p>
                 </div>
             </div>
             <div class="card card2">

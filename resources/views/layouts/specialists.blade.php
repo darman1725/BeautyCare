@@ -33,16 +33,16 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-light-2" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="{{ url('index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
+	      <a class="navbar-brand" href="{{ route('layouts.index') }}"><img src ="assets/images/relax.png" width="30px">&nbsp;BeautyCare</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="{{ url('index') }}" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="{{ url('treatments') }}" class="nav-link">Treatments</a></li>
-	          <li class="nav-item active"><a href="{{ url('specialists') }}" class="nav-link">Doctor</a></li>
-	          <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="{{ route('layouts.index') }}" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="{{ route('layouts.treatments') }}" class="nav-link">Treatments</a></li>
+	          <li class="nav-item active"><a href="{{ route('layouts.specialists') }}" class="nav-link">Doctor</a></li>
+	          <li class="nav-item"><a href="{{ route('layouts.contact') }}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 		  </div>
@@ -161,10 +161,10 @@
               <div class="ftco-footer-widget mb-4">
                 <h2 class="ftco-heading-2">Quick</h2>
                 <ul class="list-unstyled">
-                <li class="ftco-heading-3"><a href="{{ url('index') }}">Home</a></li>
-                <li class="ftco-heading-3"><a href="{{ url('treatments') }}">Treatments</a></li>
-                <li class="ftco-heading-3"><a href="{{ url('specialists') }}">Doctor</a></li>
-                <li class="ftco-heading-3"><a href="{{ url('contact') }}">Contact</a></li>
+                <li class="ftco-heading-3"><a href="{{ route('layouts.index') }}">Home</a></li>
+                <li class="ftco-heading-3"><a href="{{ route('layouts.treatments') }}">Treatments</a></li>
+                <li class="ftco-heading-3"><a href="{{ route('layouts.specialists') }}">Doctor</a></li>
+                <li class="ftco-heading-3"><a href="{{ route('layouts.contact') }}">Contact</a></li>
                 </ul>
               </div>
             </div>

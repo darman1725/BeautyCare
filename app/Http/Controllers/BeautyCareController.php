@@ -8,75 +8,75 @@ class BeautyCareController extends Controller
 {
 
     /* Method Untuk Folder Layouts */
-    public function index(){
+    public function indexLayouts(){
         return view('layouts.index');
     }
 
-    public function login(){
+    public function loginLayouts(){
         return view('layouts.login');
     }
 
-    public function register(){
+    public function registerLayouts(){
         return view('layouts.register');
     }
     
-    public function contact(){
+    public function contactLayouts(){
         return view('layouts.contact');
     }
 
-    public function specialists(){
+    public function specialistsLayouts(){
         return view('layouts.specialists');
     }
 
-    public function treatments(){
+    public function treatmentsLayouts(){
         return view('layouts.treatments');
+    }
+
+    public function formreservasiLayouts(){
+        return view('layouts.formreservasi');
+    }
+
+    public function masterLayouts(){
+        return view('layouts.master');
     }
 
 
     /* Method Untuk Folder Docters */
-    public function dragustina(){
-        return view('docters.dokteragustina');
+    public function createDoctors(){
+        return view('doctors.create');
     }
 
-    public function drainun(){
-        return view('docters.dokterainun');
+    public function detailDoctors(){
+        return view('doctors.detail');
     }
 
-    public function drbalquist(){
-        return view('docters.dokterbalquist');
+    public function editDoctors(){
+        return view('doctors.edit');
     }
 
-    public function drcatherina(){
-        return view('docters.doktercatherina');
+    public function indexDocters(){
+        return view('doctors.index');
     }
 
     /* Method Untuk Folder Treatments */
-    public function acne(){
-        return view('treatments.acne');
+    public function createTreatments(){
+        return view('treatments.create');
     }
 
-    public function botox(){
-        return view('treatments.botox');
+    public function detailTreatments(){
+        return view('treatments.detail');
     }
 
-    public function electrocautery(){
-        return view('treatments.electrocautery');
+    public function editTreatments(){
+        return view('treatments.edit');
     }
 
-    public function glowarmpit(){
-        return view('treatments.glowarmpit');
+    public function indexTreatments(){
+        return view('treatments.index');
     }
 
-    public function glowneck(){
-        return view('treatments.glowneck');
-    }
-
-    public function purifying(){
-        return view('treatments.purifying');
-    }
-
-    /* Method Untuk Folder Dashboard */
-    public function formreservasi(){
-        return view('dashboard.formreservasi');
+    /* Method Untuk Folder Customers */
+    public function customersTreatments(){
+        return view('customers.customersTreatments');
     }
 }
